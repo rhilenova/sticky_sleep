@@ -18,4 +18,5 @@ public class StickySleep
     public void init(FMLInitializationEvent event)
     {
     }
+    // MinecraftForge.EVENT_BUS.post(new net.minecraftforge.event.entity.player.PlayerWakeUpEvent(this, p_70999_1_, p_70999_2_, p_70999_3_));
 }
