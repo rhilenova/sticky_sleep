@@ -1,0 +1,8 @@
+*.txt
+*.iml
+*.ipr
+*.iws
+.gradle/*
+.idea/*
+build/*
+eclipse/*
