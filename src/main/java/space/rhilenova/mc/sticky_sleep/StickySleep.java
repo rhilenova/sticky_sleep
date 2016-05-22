@@ -2,14 +2,12 @@ package space.rhilenova.mc.sticky_sleep;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.common.MinecraftForge;
 import space.rhilenova.mc.sticky_sleep.block.BlockComfortableWeb;
 
 @Mod(modid = StickySleep.MODID, version = StickySleep.VERSION)
