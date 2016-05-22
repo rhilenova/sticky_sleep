@@ -1,9 +1,11 @@
 package space.rhilenova.mc.sticky_sleep.block;
 
 import net.minecraft.block.BlockWeb;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.ChatComponentTranslation;
 import net.minecraft.util.ChunkCoordinates;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import space.rhilenova.mc.sticky_sleep.StickySleep;
 
@@ -31,5 +33,11 @@ public class BlockComfortableWeb extends BlockWeb
             player.setSpawnChunk(new ChunkCoordinates(x, y, z), false);
             return true;
         }
+    }
+
+    @Override
+    public boolean isBed(IBlockAccess world, int x, int y, int z, EntityLivingBase player)
+    {
+        return true;
     }
 }
