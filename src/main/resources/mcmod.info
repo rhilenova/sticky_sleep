@@ -5,11 +5,11 @@
   "description": "\"Sleep\" well on beds of web",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://minecraft.curseforge.com/projects/sticky-sleep",
   "updateUrl": "",
   "authorList": ["Rhilenova"],
   "credits": "CrypticMonk's idea",
-  "logoFile": "",
+  "logoFile": "sticky_sleep.png",
   "screenshots": [],
   "dependencies": []
 }
